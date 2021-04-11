@@ -174,7 +174,7 @@ namespace ConsoleApp1
             {
                 cfg.Host("localhost", "/", h => {
                     h.Username("cuonline");
-                    h.Password("@1775Duke");
+                    h.Password("@password");
                 });
                 
                 cfg.ReceiveEndpoint("CuOnline_SystemLog_Queue", ep =>
