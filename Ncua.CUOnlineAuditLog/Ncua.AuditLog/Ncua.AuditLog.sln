@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncua.AuditLog", "Ncua.AuditLog.csproj", "{D522DB99-B25D-4ABB-8B78-3BD5841BA88D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{89B40DF1-C7F9-4ADE-BF09-F098C8E9F375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncua.CUOnline.EventServiceHost", "..\Ncua.CUOnline.EventServiceHost\Ncua.CUOnline.EventServiceHost.csproj", "{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{84E380C5-B002-4BE9-BA9B-18F365EFAA7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncua.Logging.DAL", "..\Ncua.Logging.DAL\Ncua.Logging.DAL.csproj", "{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncua.Logging.Entity", "..\Ncua.Logging.Entity\Ncua.Logging.Entity.csproj", "{30FB5D5F-F1E0-440F-8247-D970B9103AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D522DB99-B25D-4ABB-8B78-3BD5841BA88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D522DB99-B25D-4ABB-8B78-3BD5841BA88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D522DB99-B25D-4ABB-8B78-3BD5841BA88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D522DB99-B25D-4ABB-8B78-3BD5841BA88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B40DF1-C7F9-4ADE-BF09-F098C8E9F375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B40DF1-C7F9-4ADE-BF09-F098C8E9F375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B40DF1-C7F9-4ADE-BF09-F098C8E9F375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B40DF1-C7F9-4ADE-BF09-F098C8E9F375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FB5D5F-F1E0-440F-8247-D970B9103AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FB5D5F-F1E0-440F-8247-D970B9103AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FB5D5F-F1E0-440F-8247-D970B9103AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FB5D5F-F1E0-440F-8247-D970B9103AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27EB77AF-A4FD-4234-A3F7-CF513D80B4E0} = {84E380C5-B002-4BE9-BA9B-18F365EFAA7D}
+		{BDC3F229-5A64-49F6-AD55-0BF32BB8A82E} = {84E380C5-B002-4BE9-BA9B-18F365EFAA7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9364BE2C-4800-40AB-A9F5-1A8B504443C6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.ncua.gov/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Ncua.AuditLog.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\ConsoleApp1\\ConsoleApp1.csproj
+		SccProjectName2 = ../ConsoleApp1
+		SccLocalPath2 = ..\\ConsoleApp1
+		SccProjectUniqueName3 = ..\\Ncua.CUOnline.EventServiceHost\\Ncua.CUOnline.EventServiceHost.csproj
+		SccProjectTopLevelParentUniqueName3 = Ncua.AuditLog.sln
+		SccProjectName3 = ../Ncua.CUOnline.EventServiceHost
+		SccLocalPath3 = ..\\Ncua.CUOnline.EventServiceHost
+		SccProjectUniqueName4 = ..\\Ncua.Logging.DAL\\Ncua.Logging.DAL.csproj
+		SccProjectTopLevelParentUniqueName4 = Ncua.AuditLog.sln
+		SccProjectName4 = ../Ncua.Logging.DAL
+		SccLocalPath4 = ..\\Ncua.Logging.DAL
+		SccProjectUniqueName5 = ..\\Ncua.Logging.Entity\\Ncua.Logging.Entity.csproj
+		SccProjectName5 = ../Ncua.Logging.Entity
+		SccLocalPath5 = ..\\Ncua.Logging.Entity
+	EndGlobalSection
+EndGlobal
